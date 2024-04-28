@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>Kent Market | Pertanyaan Umum</title>
-<meta name="description" content="Produsen rak serbaguna">
-<meta name="generator" content="WYSIWYG Web Builder 19 - https://www.wysiwygwebbuilder.com">
+<meta name="description" content="Dapatkan Rak Besi Serbaguna yang Cocok untuk Setiap Kebutuhan Penyimpanan Anda hanya di Kent Market">
+<meta name="keywords" content="rak besi, rak serbaguna, rak besi serbaguna">
+<meta name="generator" content="FA">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="favico.png" rel="icon" sizes="155x155" type="image/png">
 <link href="fontawesome6.min.css" rel="stylesheet">
@@ -41,13 +42,164 @@ document.addEventListener('DOMContentLoaded', function(event)
 <script>
 $(document).ready(function()
 {
+   $('#wb_Text4').addClass('visibility-hidden');
+   $('#wb_Text2').addClass('visibility-hidden');
+   $('#wb_Text6').addClass('visibility-hidden');
+   $('#wb_Text8').addClass('visibility-hidden');
+   $('#wb_Text10').addClass('visibility-hidden');
+   $('#wb_Text12').addClass('visibility-hidden');
    $('#wb_footerCard2').addClass('visibility-hidden');
    $('#wb_footerCard1').addClass('visibility-hidden');
    $('#wb_Card3').addClass('visibility-hidden');
+   $('#wb_Text14').addClass('visibility-hidden');
    $("a[href*='#header']").click(function(event)
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   function onScrollText4()
+   {
+      var $obj = $("#wb_Text4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text4').inViewPort(true))
+   {
+      $('#wb_Text4').addClass("in-viewport");
+   }
+   onScrollText4();
+   $(window).scroll(function(event)
+   {
+      onScrollText4();
+   });
+   function onScrollText2()
+   {
+      var $obj = $("#wb_Text2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text2', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text2').inViewPort(true))
+   {
+      $('#wb_Text2').addClass("in-viewport");
+   }
+   onScrollText2();
+   $(window).scroll(function(event)
+   {
+      onScrollText2();
+   });
+   function onScrollText6()
+   {
+      var $obj = $("#wb_Text6");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text6', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text6', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text6').inViewPort(true))
+   {
+      $('#wb_Text6').addClass("in-viewport");
+   }
+   onScrollText6();
+   $(window).scroll(function(event)
+   {
+      onScrollText6();
+   });
+   function onScrollText8()
+   {
+      var $obj = $("#wb_Text8");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text8', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text8', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text8').inViewPort(true))
+   {
+      $('#wb_Text8').addClass("in-viewport");
+   }
+   onScrollText8();
+   $(window).scroll(function(event)
+   {
+      onScrollText8();
+   });
+   function onScrollText10()
+   {
+      var $obj = $("#wb_Text10");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text10', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text10', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text10').inViewPort(true))
+   {
+      $('#wb_Text10').addClass("in-viewport");
+   }
+   onScrollText10();
+   $(window).scroll(function(event)
+   {
+      onScrollText10();
+   });
+   function onScrollText12()
+   {
+      var $obj = $("#wb_Text12");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text12', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text12', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text12').inViewPort(true))
+   {
+      $('#wb_Text12').addClass("in-viewport");
+   }
+   onScrollText12();
+   $(window).scroll(function(event)
+   {
+      onScrollText12();
    });
    function onScrollfooterCard2()
    {
@@ -120,6 +272,30 @@ $(document).ready(function()
    $(window).scroll(function(event)
    {
       onScrollCard3();
+   });
+   function onScrollText14()
+   {
+      var $obj = $("#wb_Text14");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text14', 'animate-fade-in-up', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text14', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text14').inViewPort(true))
+   {
+      $('#wb_Text14').addClass("in-viewport");
+   }
+   onScrollText14();
+   $(window).scroll(function(event)
+   {
+      onScrollText14();
    });
 });
 </script>
@@ -201,7 +377,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text4">
-<span style="color:#000000;font-family:Arial;font-size:16px;">Gresik</span>
+<span style="color:#000000;font-family:Arial;font-size:16px;">Workshop dan pengiriman kami berada di Kabupaten Gresik</span>
 </div>
 </div>
 </div>
@@ -212,7 +388,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text1">
-<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Pengiriman dari kota mana ?</strong></span>
+<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Pengiriman meliputi wilayah mana saja ?</strong></span>
 </div>
 </div>
 </div>
@@ -223,7 +399,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text2">
-<span style="color:#000000;font-family:Arial;font-size:16px;">Gresik</span>
+<span style="color:#000000;font-family:Arial;font-size:16px;">Kami melayani pengiriman ke seluruh Indonesia dengan menggunakan expedisi darat dan laut.</span>
 </div>
 </div>
 </div>
@@ -234,7 +410,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text5">
-<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Pengiriman dari kota mana ?</strong></span>
+<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Apakah ada program gratis ongkir ?</strong></span>
 </div>
 </div>
 </div>
@@ -245,7 +421,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text6">
-<span style="color:#000000;font-family:Arial;font-size:16px;">Gresik</span>
+<span style="color:#000000;font-family:Arial;font-size:16px;">Untuk wilayah Surabaya,Sidoarjo dan Gresik anda bisa mendapatkan Free Ongkos kirim dan Pemasangan.</span>
 </div>
 </div>
 </div>
@@ -256,7 +432,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text7">
-<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Pengiriman dari kota mana ?</strong></span>
+<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Apakah bisa konsultasi terlebih dahulu ?</strong></span>
 </div>
 </div>
 </div>
@@ -267,7 +443,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text8">
-<span style="color:#000000;font-family:Arial;font-size:16px;">Gresik</span>
+<span style="color:#000000;font-family:Arial;font-size:16px;">Tentu saja, anda bisa konsultasi dengan kami, gratis</span>
 </div>
 </div>
 </div>
@@ -278,7 +454,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text9">
-<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Pengiriman dari kota mana ?</strong></span>
+<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Apakah bisa membuatkan layout rak untuk ruangan/lokasi kami ?</strong></span>
 </div>
 </div>
 </div>
@@ -289,7 +465,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text10">
-<span style="color:#000000;font-family:Arial;font-size:16px;">Gresik</span>
+<span style="color:#000000;font-family:Arial;font-size:16px;">Kami siap membantu dengan membuatkan Layout terlebih dahulu untuk membantu anda mempertimbangkan kebutuhan rak besi yang sesuai.</span>
 </div>
 </div>
 </div>
@@ -300,7 +476,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text11">
-<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Pengiriman dari kota mana ?</strong></span>
+<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Bagaimana kalo budget kami tidak cukup?</strong></span>
 </div>
 </div>
 </div>
@@ -311,7 +487,29 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text12">
-<span style="color:#000000;font-family:Arial;font-size:16px;">Gresik</span>
+<span style="color:#000000;font-family:Arial;font-size:16px;">Kami mempunyai varian produk dengan menyesuaikan kebutuhan anda.Konsultasikan dengan kami dan kami siap membantu anda memilih produk yg sesuai dengan kebutuhan dan Budget anda.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text13">
+<span style="color:#B22222;font-family:Arial;font-size:19px;"><strong>Kenapa harus belanja rak besi di kent Market?</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text14">
+<span style="color:#000000;font-family:Arial;font-size:16px;">Kami adalah distributor Pabrik Rak yang sudah lebih dari 15th bergerak dibidang pembuatan rak toko dan minimarket,kami sangat menjaga kwalitas produk dengan memakai material terbaik dan proses produksi dengan system modern.</span>
 </div>
 </div>
 </div>
@@ -324,7 +522,7 @@ $(document).ready(function()
 <div id="wb_footerLayoutGrid1">
 <div id="footerLayoutGrid1">
 <div class="col-1">
-<div id="wb_footerCard1" style="display:flex;width:100%;z-index:26;" class="card">
+<div id="wb_footerCard1" style="display:flex;width:100%;z-index:28;" class="card">
 <div id="footerCard1-card-body">
 <div id="footerCard1-card-item0">Kent Market | Rak serbaguna</div>
 <div id="footerCard1-card-item1">Kami adalah produsen rak serbaguna untuk menciptakan solusi penyimpanan inovatif yang memenuhi kebutuhan rumah tangga dan bisnis dengan kualitas terbaik dan desain yang estetis.</div>
@@ -332,7 +530,7 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_footerCard2" style="display:flex;width:100%;z-index:27;" class="card">
+<div id="wb_footerCard2" style="display:flex;width:100%;z-index:29;" class="card">
 <div id="footerCard2-card-body">
 <div id="footerCard2-card-item0">Workshop</div>
 <div id="footerCard2-card-item1"><br>GUDANG ASRI B06 - Jl. Pratama Indah No.5, Watu Wetan, Pelemwatu, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174<br><br></div>
@@ -341,7 +539,7 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-3">
-<div id="wb_Card3" style="display:flex;width:100%;z-index:28;" class="card">
+<div id="wb_Card3" style="display:flex;width:100%;z-index:30;" class="card">
 <div id="Card3-card-body">
 <div id="Card3-card-item0">Hubungi kami</div>
 <div id="Card3-card-item1"><br>Whatsapp</div>
@@ -357,22 +555,22 @@ $(document).ready(function()
 <div id="footerLayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_footerIcon1" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:29;">
+<div id="wb_footerIcon1" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:31;">
 <a href="./index.html"><div id="footerIcon1"><i class="fa fa-brands fa-x-twitter"></i></div></a>
 </div>
-<div id="wb_footerIcon2" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:30;">
+<div id="wb_footerIcon2" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:32;">
 <a href="./index.html"><div id="footerIcon2"><i class="fa fa-brands fa-instagram"></i></div></a>
 </div>
-<div id="wb_footerIcon3" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:31;">
+<div id="wb_footerIcon3" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:33;">
 <a href="./index.html"><div id="footerIcon3"><i class="fa fa-brands fa-facebook"></i></div></a>
 </div>
-<div id="wb_footerIcon4" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:32;">
+<div id="wb_footerIcon4" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:34;">
 <a href="./index.html"><div id="footerIcon4"><i class="fa fa-brands fa-linkedin"></i></div></a>
 </div>
-<div id="wb_footerIcon5" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:33;">
+<div id="wb_footerIcon5" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:35;">
 <a href="./index.html"><div id="footerIcon5"><i class="fa fa-brands fa-google"></i></div></a>
 </div>
-<div id="wb_footerIcon6" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:34;">
+<div id="wb_footerIcon6" style="display:inline-block;width:16px;height:17px;text-align:center;z-index:36;">
 <a href="./index.html"><div id="footerIcon6"><i class="fa fa-brands fa-github"></i></div></a>
 </div>
 </div>
