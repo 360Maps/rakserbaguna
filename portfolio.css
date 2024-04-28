@@ -35,7 +35,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #E95420;
-   --colorize: invert(37%) sepia(72%) saturate(2229%) hue-rotate(351deg) brightness(96%) contrast(89%);
+   --colorize: invert(32%) sepia(60%) saturate(2262%) hue-rotate(354deg) brightness(106%) contrast(83%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -97,7 +97,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #E95420;
-   --colorize: invert(51%) sepia(93%) saturate(5055%) hue-rotate(355deg) brightness(100%) contrast(83%);
+   --colorize: invert(58%) sepia(99%) saturate(4932%) hue-rotate(351deg) brightness(96%) contrast(90%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -1785,28 +1785,6 @@ body
 {
    color: inherit;
    text-decoration: none;
-}
-#Card3-card-item3
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 16px;
-}
-#Card3-card-item4
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
 }
 #wb_footerLayoutGrid2
 {
